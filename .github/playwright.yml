@@ -4,20 +4,20 @@ on:
   schedule:
     - cron: '30 21 * * 1-4'  # Mon-Fri 8PM IST
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
-  # workflow_dispatch:
-  #   inputs:
-  #     environment:
-  #       description: 'Select environment'
-  #       required: true
-  #       default: 'QA'
-  #       type: choice
-  #       options:
-  #         - QA
-  #         - stage
-  #         - dev
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Select environment'
+        required: true
+        default: 'QA'
+        type: choice
+        options:
+          - QA
+          - stage
+          - dev
 
 jobs:
   test:
