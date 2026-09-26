@@ -38,7 +38,7 @@ await page.route('**/index.php?route=product/search&search=macbook', (route) => 
 });
     
     await page.goto('https://naveenautomationlabs.com/index.php?route=product/search&search=macbook');
-    await page.pause();
+  //  await page.pause();
 
    let fakeJson = await page.evaluate(async() => {
 

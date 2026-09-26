@@ -1,4 +1,5 @@
 import { test, expect } from '../src/fixtures/pagefixtures';
+import { LoginPage } from '../src/pages/LoginPage';
 import { CsvHelper } from '../src/utils/CsvHelper';
 
 
@@ -7,7 +8,8 @@ test.beforeEach(async ({ loginPage }) => {
    await loginPage.goToLoginPage();
 
 });
-test('register page title test', async ({ registerUserPage }) => {
+test('register page title test', async ({loginPage, registerUserPage }) => {
+   await loginPage.goToRegisterPage();
    const pageTitle = await registerUserPage.getPageTitle();
    console.log('register page title : ', pageTitle);
    expect(pageTitle).toBe('Register Account');
