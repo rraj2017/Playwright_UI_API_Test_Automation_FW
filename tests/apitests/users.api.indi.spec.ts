@@ -1,6 +1,6 @@
 import { APIHelper } from '../../src/api/APIHelper';
 import {test, expect} from '../../src/fixtures/apifixtures';
-const TOKEN = process.env.API_Token!;
+const TOKEN = process.env.API_TOKEN!;
 let AUTH_HEADER = {Authorization: `Bearer ${TOKEN}` };
 
 //helper - generic function - create a fresh user
