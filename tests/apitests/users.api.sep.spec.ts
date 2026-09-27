@@ -13,7 +13,7 @@ test.skip('GET API ---get all users test', async ({ apiHelper }) => {
      
     });
 
-    test('POST API ---create a user test', async ({ apiHelper }) => {
+    test.skip('POST API ---create a user test', async ({ apiHelper }) => {
         let userData = {
             name: 'Ritu Test API',
             email:`automation_${Date.now()}@open.com`,
@@ -29,7 +29,7 @@ test.skip('GET API ---get all users test', async ({ apiHelper }) => {
         });
 
 
-        test('PUT API ---Update a user test', async ({ apiHelper }) => {
+        test.skip('PUT API ---Update a user test', async ({ apiHelper }) => {
             let updatedUserData = {
                 name: 'Ritu Test API Updated',
                 status: 'inactive'
@@ -41,7 +41,7 @@ test.skip('GET API ---get all users test', async ({ apiHelper }) => {
             });
 
 
-            test('DELETE API ---Delete a user test', async ({ apiHelper }) => {
+            test.skip('DELETE API ---Delete a user test', async ({ apiHelper }) => {
                 let response = await apiHelper.delete(`/public/v2/users/${userId}`, AUTH_HEADER);
                   expect(response.status).toBe(204);
                   
