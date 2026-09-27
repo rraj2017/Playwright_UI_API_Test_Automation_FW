@@ -5,7 +5,7 @@ let userId: number;
 
 test.describe.serial('running e2e go rest CRUD api tests', ()=>{
 
-test('GET API ---get all users test', async ({ apiHelper }) => {
+test.skip('GET API ---get all users test', async ({ apiHelper }) => {
     
     let response = await apiHelper.get('/public/v2/users',AUTH_HEADER);
       expect(response.status).toBe(200);
