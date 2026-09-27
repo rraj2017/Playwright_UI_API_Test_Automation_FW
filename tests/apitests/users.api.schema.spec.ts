@@ -8,7 +8,7 @@
 import {test, expect } from '../../src/fixtures/apifixtures';
 import Ajv from 'ajv';
 
-let TOKEN = process.env.API_Token;
+let TOKEN = process.env.API_TOKEN;
 let AUTH_HEADER = {Authorization: `Bearer ${TOKEN}`};
 
 //setup the AJV:
@@ -51,7 +51,7 @@ let userSchema = {
   };
 
 
-test.skip('Schema validation by creating and getting user', async ({ apiHelper }) => {
+test('Schema validation by creating and getting user', async ({ apiHelper }) => {
 
     let userData = {
         name: 'Schema test',
@@ -79,7 +79,7 @@ test.skip('Schema validation by creating and getting user', async ({ apiHelper }
   });
 
 
-  test.skip('GET- get all the users and schema validation for the array', async ({ apiHelper }) => {
+  test('GET- get all the users and schema validation for the array', async ({ apiHelper }) => {
 
     
    //get user
