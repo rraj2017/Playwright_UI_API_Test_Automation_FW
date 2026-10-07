@@ -51,7 +51,7 @@ let userSchema = {
   };
 
 
-test('Schema validation by creating and getting user', async ({ apiHelper }) => {
+test('@smoke Schema validation by creating and getting user', async ({ apiHelper }) => {
 
     let userData = {
         name: 'Schema test',
@@ -79,7 +79,7 @@ test('Schema validation by creating and getting user', async ({ apiHelper }) => 
   });
 
 
-  test('GET- get all the users and schema validation for the array', async ({ apiHelper }) => {
+  test('@smoke GET- get all the users and schema validation for the array', async ({ apiHelper }) => {
 
     
    //get user
