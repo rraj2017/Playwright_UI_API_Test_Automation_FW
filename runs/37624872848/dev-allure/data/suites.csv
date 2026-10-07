@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1611","@smoke Schema validation by creating and getting user","chromium","2026-10-07","passed","2026-10-07","","apitests/users.api.schema.spec.ts","",""
+"","2396","@smoke login page title test","chromium","2026-10-07","passed","2026-10-07","","loginpagefix.spec.ts","",""
+"","3481","@smoke user is able to login to the app test","chromium","2026-10-07","passed","2026-10-07","","loginpagefix.spec.ts","",""
+"","1287","@smoke GET- get all the users and schema validation for the array","chromium","2026-10-07","passed","2026-10-07","","apitests/users.api.schema.spec.ts","",""

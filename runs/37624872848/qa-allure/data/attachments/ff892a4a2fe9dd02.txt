@@ -1,0 +1,74 @@
+[
+  {
+    id: 8655147,
+    name: 'Ritu Test API',
+    email: 'automation_1791378019026@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8655145,
+    name: 'Schema test',
+    email: 'automation_1791378017506@opencart.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8655144,
+    name: 'Ritu Test API Updated',
+    email: 'automation_1791378016357@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8655143,
+    name: 'Ritu Test API',
+    email: 'automation_1791378014703@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8655141,
+    name: 'Schema test',
+    email: 'automation_1791377955330@opencart.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8654650,
+    name: 'sam',
+    email: 'automation_1791350804477@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8654647,
+    name: 'Schema test',
+    email: 'automation_1791350802327@opencart.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8654646,
+    name: 'Ritu Test API Updated',
+    email: 'automation_1791350801184@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8654645,
+    name: 'Ritu Test API',
+    email: 'automation_1791350799537@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8654386,
+    name: 'sam',
+    email: 'automation_1791334723019@open.com',
+    gender: 'male',
+    status: 'active'
+  }
+]
+200
+OK
