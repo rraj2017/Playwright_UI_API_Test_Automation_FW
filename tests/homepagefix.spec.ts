@@ -13,7 +13,7 @@ test.beforeEach(async ({ loginPage }) => {
     expect(pageTitle).toBe('My Account');
  });
 
- test('logout link exist test', async({ homePage  }) => {
+ test('@regression logout link exist test', async({ homePage  }) => {
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
  });
  
@@ -30,13 +30,13 @@ test.beforeEach(async ({ loginPage }) => {
  });
 
  //common tests:
- test('Comp logo exists on product page', async ({ basePage }) => {
+ test('@smoke Comp logo exists on product page', async ({ basePage }) => {
    expect(await basePage.isLogoVisible()).toBeTruthy();
   
 
 });
 
-test('footers exists on product page', async ({ basePage }) => {
+test('@smoke footers exists on product page', async ({ basePage }) => {
    expect(await basePage.getPageFootersCount()).toBe(16);
 });
  

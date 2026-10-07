@@ -21,7 +21,7 @@ test('get user test', async ({ request }) => {
  
  });
 
- test('create a user test', async ({ request }) => {
+ test('@regression create a user test', async ({ request }) => {
     //JS Object
     let userData = {
         name: 'sam',
@@ -47,7 +47,7 @@ test('get user test', async ({ request }) => {
   
   });
 
-  test('Update a user test', async ({ request }) => {
+  test('@regression Update a user test', async ({ request }) => {
     //JS Object
     let userData = {
         name: 'Uday-1001',
@@ -73,7 +73,7 @@ test('get user test', async ({ request }) => {
   
   });
 
-  test('Delete a user test', async ({ request }) => {
+  test('@regression Delete a user test', async ({ request }) => {
    
     let response = await request.delete('https://gorest.co.in/public/v2/users/8615515', {
  

@@ -5,7 +5,7 @@ let userId: number;
 
 test.describe.serial('running e2e go rest CRUD api tests', ()=>{
 
-test('GET API ---get all users test', async ({ apiHelper }) => {
+test('@smoke GET API ---get all users test', async ({ apiHelper }) => {
     
     let response = await apiHelper.get('/public/v2/users',AUTH_HEADER);
       expect(response.status).toBe(200);
@@ -13,7 +13,7 @@ test('GET API ---get all users test', async ({ apiHelper }) => {
      
     });
 
-    test('POST API ---create a user test', async ({ apiHelper }) => {
+    test('@smoke POST API ---create a user test', async ({ apiHelper }) => {
         let userData = {
             name: 'Ritu Test API',
             email:`automation_${Date.now()}@open.com`,
@@ -29,7 +29,7 @@ test('GET API ---get all users test', async ({ apiHelper }) => {
         });
 
 
-        test('PUT API ---Update a user test', async ({ apiHelper }) => {
+        test('@smoke PUT API ---Update a user test', async ({ apiHelper }) => {
             let updatedUserData = {
                 name: 'Ritu Test API Updated',
                 status: 'inactive'

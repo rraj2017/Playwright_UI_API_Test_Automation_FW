@@ -68,13 +68,13 @@ for (let row of loginJsonData) {
 }
 
 //common tests:
-test('@sanity Comp logo exists on product page', async ({ basePage }) => {
+test('@smoke Comp logo exists on product page', async ({ basePage }) => {
    expect(await basePage.isLogoVisible()).toBeTruthy();
   
 
 });
 
-test('@sanity footers exists on product page', async ({ basePage }) => {
+test('@smoke footers exists on product page', async ({ basePage }) => {
    expect(await basePage.getPageFootersCount()).toBe(16);
 });
 
