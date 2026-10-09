@@ -1,0 +1,2 @@
+Use creds :  pwtestbatch@open.com
+home page headers  [ 'My Account', 'My Orders', 'My Affiliate Account', 'Newsletter' ]

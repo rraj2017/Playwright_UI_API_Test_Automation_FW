@@ -1,0 +1,74 @@
+[
+  {
+    id: 8660004,
+    name: 'Schema test',
+    email: 'automation_1791544755358@opencart.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8660002,
+    name: 'Ritu Test API Updated',
+    email: 'automation_1791544753979@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8660001,
+    name: 'Ritu Test API',
+    email: 'automation_1791544752341@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8660000,
+    name: 'Ritu Test API Updated',
+    email: 'automation_1791544701219@open.com',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8659999,
+    name: 'Schema test',
+    email: 'automation_1791544699540@opencart.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8657064,
+    name: 'Agnimitra Patel',
+    email: 'patel_agnimitra@mccullough-wiegand.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8657061,
+    name: 'Arjun Tagore CPA',
+    email: 'tagore_cpa_arjun@keeling-osinski.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8657060,
+    name: 'Sweta Singh',
+    email: 'singh_sweta@tillman.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8657059,
+    name: 'Bhushit Menon',
+    email: 'menon_bhushit@upton.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8657057,
+    name: 'Rep. Rajan Talwar',
+    email: 'rep_talwar_rajan@witting-davis.test',
+    gender: 'female',
+    status: 'active'
+  }
+]
+200
+OK

@@ -1,0 +1,9 @@
+{
+  id: 8660006,
+  name: 'sam',
+  email: 'automation_1791544756969@open.com',
+  gender: 'male',
+  status: 'active'
+}
+201
+Created
