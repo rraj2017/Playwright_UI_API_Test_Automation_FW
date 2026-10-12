@@ -1,4 +1,6 @@
 npm install OpenCartWebAPIFramework
+
+//usage
 import { LoginPage, HomePage, ApiHelper, CsvHelper } from 'OpenCartWebAPIFramework';
 
 // Use page objects
