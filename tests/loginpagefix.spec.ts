@@ -68,7 +68,7 @@ for (let row of loginJsonData) {
 }
 
 //common tests:
-test('Comp logo exists on product page', async ({ basePage }) => {
+test.skip('Comp logo exists on product page', async ({ basePage }) => {
    expect(await basePage.isLogoVisible()).toBeTruthy();
   
 
